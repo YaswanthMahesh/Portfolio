@@ -1,0 +1,40 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YaswanthMahesh/Portfolio.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Yaswanth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YaswanthMahesh/Portfolio/issues"
+  },
+  "homepage": "https://github.com/YaswanthMahesh/Portfolio#readme",
+  "devDependencies": {
+    "parcel": "latest",
+    "postcss": "^8.4.38",
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
+    "react-scroll": "^1.9.0",
+    "tailwindcss": "^3.4.1"
+  },
+  "postcss": {
+    "plugins": {
+      "tailwindcss": {}
+    }
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "react-icons": "^5.0.1"
+  }
+}

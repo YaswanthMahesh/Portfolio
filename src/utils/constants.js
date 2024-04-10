@@ -1,0 +1,68 @@
+import { FaLinkedin, FaGithub, FaFilePdf } from "react-icons/fa";
+import { MdOutlineMailOutline } from "react-icons/md";
+
+
+export const LINKEDIN_URL = "https://www.linkedin.com/in/yaswanth-nandigam-54005517a/";
+export const GITHUB_URL = "https://github.com/YaswanthMahesh";
+
+export const experiences = [
+    
+    [
+     ['data:image/png;base64,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'],
+     ["Illinois Institute Of Technology, Chicago, Illinois - Graduate Teaching Assistant"], 
+     ["Auguest 2023 - Present"], 
+     [
+        "Educated over 150 students in excelling in the course by recommending code modifications, while implementing innovative and dynamic learning strategies. ",
+        "Assist professor with grading, tutoring and Developing course material.",
+        "Addressing student inquiries and concerns through scheduled TA hours.",
+     ]
+    ],
+    [
+     ["data:image/png;base64,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"],
+     ["NCR Corporation, Hyderabad, India - Software Engineer 1"], 
+     ["October 2020 - December 2022"], 
+     [
+        "Successfully implemented a POC for Cross-Site Request Forgery (CSRF) and effectively mitigated it within the project using anti-CSRF tokens.",
+        "Mitigated security vulnerabilities, reducing them by 20%, and resolved 25% of customer complaints.",
+        "Applied Core Java principle, including Multi-Threading, and Exception handling to create essential business components.",
+        "Implemented multithreading to concurrently process tables, allowing the system to handle multiple user data entries simultaneously thereby reducing the data processing time.",
+        "Enhanced the security of APIs by implementing robust Authentication and Authorization mechanisms, ensuring secure access and data integrity."
+     ]
+    ],
+    [
+     ["data:image/png;base64,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"],
+     ["NCR Corporation, Hyderabad, India - Software Intern"], 
+     ["January 2020 - September 2020"], 
+     [
+        "Designed and implemented stored procedures triggers using SQL to calculate and maintain tables , effectively executing business logic within the database, resulting in reduction of data processing time.",
+        "Executed unit testing for critical components using the Unit framework with Mockito ensuring 95% test coverage and reducing bug count by 50%.",
+        "Implemented access keys for software-to-software authentication in applications using shared/secret keys.",
+        "Improved user experience by implementing UI changes and bug fixes."
+     ]
+    ]
+];
+
+
+export const SOCIAL_LINKS = [
+   {
+     link: LINKEDIN_URL,
+     name: "LinkedIn",
+     Icon: <FaLinkedin size={30}/>,
+   },
+   {
+     link: GITHUB_URL,
+     name: "Github",
+     Icon: <FaGithub size={30} />,
+   },
+   {
+     link: "mailto:yaswanthmahesh7@gmail.com",
+     name: "Email",
+     Icon: <MdOutlineMailOutline size={30} />,
+   },
+   {
+     link: "./resume.pdf",
+     name: "Resume",
+     download: true,
+     Icon: <FaFilePdf size={30} />,
+   },
+ ];
