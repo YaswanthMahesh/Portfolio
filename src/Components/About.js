@@ -51,13 +51,4 @@ const About = () => {
         </div>
       );
     }
-
-
-const About1 = () => {
-    return (
-        <div id="about" className="flex justify-center pt-16 p-2 md:mx-10 md:pb-px-5">
-            About
-        </div>
-    )
-}
 export default About

@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "My portfolio",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -17,8 +21,9 @@
   "bugs": {
     "url": "https://github.com/YaswanthMahesh/Portfolio/issues"
   },
-  "homepage": "https://github.com/YaswanthMahesh/Portfolio#readme",
+  "homepage": "https://yaswanthmahesh.github.io/Portfolio/",
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "parcel": "latest",
     "postcss": "^8.4.38",
     "process": "^0.11.10",

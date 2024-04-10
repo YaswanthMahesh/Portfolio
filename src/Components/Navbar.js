@@ -7,7 +7,7 @@ const Navbar = () => {
                 <div className="items-center p-8 m-4">
                     YASWANTH 
                 </div>
-                <div class = "items-center hidden md:flex">
+                <div class = "items-center hidden sm:flex">
                     <ul className="flex p-4 m-4">
                         <li className="p-4 cursor-pointer">
                             <Link to="home" spy={true} smooth={true} offset={5} >HOME</Link>
@@ -32,7 +32,7 @@ const Navbar = () => {
                     </svg>
                 </div>
             </div>
-            <div className="flex justify-center items-center top-0 left-0 absolute bg-slate-700 h-screen w-full">
+            {/* <div className="flex justify-center items-center top-0 left-0 absolute bg-slate-700 h-screen w-full">
                 <ul className="flex flex-col text-white p-4 m-4">
                         <li className="p-4 cursor-pointer">
                             <Link to="home" spy={true} smooth={true} offset={5} >HOME</Link>
@@ -50,7 +50,7 @@ const Navbar = () => {
                             <Link to="contact" spy={true} smooth={true} offset={50}>CONTACT</Link>
                         </li>
                  </ul>
-            </div>
+            </div> */}
         </header>
         
     )
